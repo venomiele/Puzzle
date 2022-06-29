@@ -1,0 +1,25 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    height: 100vh;
+  }
+
+  .nav {
+    background-color: red;
+  }
+
+  .puzzle-wrapper {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .left {
+    background-color: yellow;
+  }
+
+  .right {
+    background-color:blueviolet;
+  }
